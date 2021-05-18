@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Pareiškimas</title>
+  </head>
+  <body>
+    <form action="https://www.rinkosaikste.lt/naujienos/skaitytojai-dalinasi/lentynose-pasibaigusio-galiojimo-preks" method="get">
+        <h1><ins>Skundas</ins></h1>
+        <label for="vardas"></label><br>
+        <input id="vardas" type="text" name="VARDAS" placeholder="Vardas" size="40" required>
+        <sup class="asterix">*</sup>
+        <br><br>
+        <label for="pavardė"></label>
+        <input id="pavardė" type="pavardė" name="PAVARDĖ" placeholder="Pavardė" size="40" minlenght="5" required>
+        <sup class="asterix">*</sup>
+        <br><br>
+        <label for="email"></label>
+        <input id="email" type="email" name="EMAIL" placeholder="Email" size="40" required>
+        <sup class="asterix">*</sup>
+        <br><br>
+        <label for="telefonas"></label>
+        <input id="telefonas" type="telefonas" name="TELEFONAS" placeholder="Telefonas" size="40" required>
+        <sup class="asterix">*</sup>
+        <br><br>
+
+        <select name="shops">
+          <option value="#" hidden>Parduotuvė</option>
+          <option value="IKI">IKI</option>
+          <option value="Rimi">Rimi</option>
+          <option value="Maxima">Maxima</option>
+          <option value="Norfa">Norfa</option>
+          <option value="Lidl">Lidl</option>
+        </select>
+        <br><br>
+
+        <select name="date">
+          <option value="#" hidden>Data</option>
+          <option value="#">2021.05.12</option>
+          <option value="#">2021.05.13</option>
+          <option value="#">2021.05.14</option>
+          <option value="#">2021.05.15</option>
+          <option value="#">2021.05.16</option>
+          <option value="#">2021.05.17</option>
+          <option value="#">2021.05.18</option>
+        </select>
+        <br><br>
+
+
+        <label class="containers">Pasibaigęs prekės galiojimas
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          <br>
+        <label class="containers">Įmušta didesnė orekės kaina
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          <br>
+        <label class="containers">Brokuota prekė
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          <br>
+        <label class="containers">Blogas aptarnavimas
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          <br>
+        <label class="containers">Kiti..
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+
+        <!-- <select class="Skundas">
+          <option value="#" hidden>Skundai</option>
+
+          <option value="#">pasibaigęs prekės galiojimas</option>
+          <option value="#">įmušta didesnė prekės kaina</option>
+          <option value="#">brokuota/bloga prekė</option>
+          <option value="#">blogas aptarnavimas</option>
+          <option value="#">kiti..</option>
+        </select> -->
+        <br><br>
+
+        <textarea name="paaiškinimas" placeholder="Paaiškinimas" rows="6" cols="40"></textarea>
+        <br><br>
+
+          <button type="submit" name="button">
+            <span>Prisegti failą</span>
+          </button>
+          <br><br>
+
+          <button type="submit" name="button">
+            <span>Prisegti failą</span>
+          </button>
+          <br><br>
+
+          <button type="submit" name="button">
+            <span>Prisegti failą</span>
+          </button
+          <br><br><br>
+          <br>
+          <label class="container"><a href="https://rekvizitai.vz.lt/taisykles/">Susipažinau su taisyklėmis, su jomis sutinku ir jų laikysiuos</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <br><br><br>
+
+        <button type="submit" name="button" class="sent">
+          <span>Siųsti</span>
+        </button>
+        <br><br><br>
+
+        <div class="end">
+        <sup class="asterix">*</sup>
+        <span class="tip">Būtini užpildyti laukeliai!</span>
+        </div>
+
+    </form>
+  </body>
+</html>
